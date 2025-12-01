@@ -1,0 +1,12 @@
+{
+  "build": {
+    "command": "npm run build",
+    "output": ".next"
+  },
+  "deploy": {
+    "framework": "nextjs",
+    "nodeVersion": "18.x",
+    "installCommand": "npm install",
+    "startCommand": "npm run start"
+  }
+}
